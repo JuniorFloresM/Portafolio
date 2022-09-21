@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kalam:wght@300;400;700&family=Montserrat:wght@100;300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Roboto&family=Roboto+Slab:wght@100;200;300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+	font-family: 'Ubuntu', sans-serif;
+
+	font-size: 14px;
+	
+}
+header{
+    background-color: #eee;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#intro{
+	font-family: 'Roboto', sans-serif;	
+	color: #FFFFFF;
+	background-color: #00aeef;
+}
+
+#intro h1{	
+	margin-left: 50px;
+	font-size: 500%;
+	
+}
+
+#intro h2{
+	margin-left: 50px;
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+
+#intro h3{
+	margin-left: 50px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+.foto-perfil{
+	margin: 0 30px;
+}
+
+#about{
+	text-align: center;
+	
+}
+
+.titulo{
+	color: #d90080;
+	font-family: 'Roboto Slab', serif;
+	padding-bottom: 30px;
+}
+
+hr{
+	color: #d90080;
+}
+
+.texto{
+	font-size: 20px;
+	color: #595959;
+	font-family: 'Ubuntu', sans-serif;
+	
+	
+}
+
+#services{
+	text-align: center;
+	background-color: #ECECEC;
+}
+
+footer{
+	font-family: 'Roboto Slab', serif;
+	color: #FFFFFF;
+	padding: 40px;
+	background-color: #00aeef;
+	font-size: 15px;
+}
+
+.subtitulo{
+	color: #125f85;
+	font-family: 'Roboto Slab', serif;
+	padding-bottom: 20px;
+}
+
+.btn-seccion{
+	color: #125f85;
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+}
+
+.btn-seccion:hover{
+	color: #003553;
+	font-family: 'Roboto Slab', serif;
+}
+
+#services i{
+	font-size: 90px;
+	color: #125f85;
+	padding: 10px 70px;
+}
+
+#servicios{
+	text-align: center;
+	padding: 50px 0;
+}
+
+#contact{
+	background-color: #ECECEC;
+}
+
+.btn-contacto{
+	align-content: center;
+	padding: 10px 40px;
+	color: #fff;
+	border-color: #125f85;
+	background-color: #00aeef;
+}
+
+.btn-contacto:hover{
+	color: #fff;
+	border-color: #003553;
+	background-color: #125f85;
+}
+
+footer i{
+	color: #fff;
+	font-size: 30px;
+}
